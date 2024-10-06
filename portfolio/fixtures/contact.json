@@ -1,0 +1,12 @@
+[
+    {
+        "model": "portfolio.contact",
+        "pk": 1,
+        "fields": {
+            "email": "saadmaazouzi580@gmail.com",
+            "linkedin": "linkedin.com/in/saad-mazouzi",
+            "phone_number": "0691581813",
+            "address": "ANGLE HUOMMANE FETOUAKI & RUE Q APPT N°7 Kénitra"
+        }
+    }
+]

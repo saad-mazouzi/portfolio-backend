@@ -1,0 +1,23 @@
+[
+    {
+        "model": "portfolio.certification",
+        "pk": 2,
+        "fields": {
+            "certificat": "certifications/c1.jpg"
+        }
+    },
+    {
+        "model": "portfolio.certification",
+        "pk": 3,
+        "fields": {
+            "certificat": "certifications/c2.jpg"
+        }
+    },
+    {
+        "model": "portfolio.certification",
+        "pk": 4,
+        "fields": {
+            "certificat": "certifications/c3.jpg"
+        }
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "model": "portfolio.resume",
+        "pk": 1,
+        "fields": {
+            "file": "resumes/MAZOUZI_Saad.pdf"
+        }
+    }
+]

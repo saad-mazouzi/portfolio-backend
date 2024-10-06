@@ -1,0 +1,10 @@
+[
+    {
+        "model": "portfolio.aboutme",
+        "pk": 3,
+        "fields": {
+            "profile_picture": "profile_pictures/ana_Kq6gIb9.png",
+            "description": "Bonjour ! Je suis Saad MAZOUZI, Ingénieur d'État en Ingénierie des Connaissances et Science des Données Spécialisé en Intelligence Artificielle, Machine Learning, Deep Learning, NLP et Computer Vision. Je suis passionné par l'application de ces technologies pour résoudre des problèmes complexes et créer des solutions innovantes. Je recherche une opportunité pour mettre en pratique mes compétences en science des données dans un environnement stimulant."
+        }
+    }
+]

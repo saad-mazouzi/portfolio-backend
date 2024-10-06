@@ -1,0 +1,47 @@
+[
+    {
+        "model": "portfolio.project",
+        "pk": 2,
+        "fields": {
+            "title": "Projet de vision par ordinateur :",
+            "description": "Classification des maladies foliaires avec ResNet50 et MobileNetV2 : La deuxième partie se concentre sur la classification des maladies affectant les feuilles de vigne. Nous utiliserons les modèles d'apprentissage profond ResNet50 et MobileNetV2 pour classer les images de feuilles et détecter les signes de maladie. Cette classification précoce permettra une intervention rapide et ciblée afin de minimiser les pertes de récoltes. Cliquez sur le lien pour consulter le carnet de notes https://colab.research.google.com/drive/1QYGJT-fYIui0i5MqefwqadRoeBYYFGY2?usp=sharing",
+            "cover_image": "project_images/leaf.jpg"
+        }
+    },
+    {
+        "model": "portfolio.project",
+        "pk": 3,
+        "fields": {
+            "title": "Projet de Text Mining :",
+            "description": "Mon projet combine le web scraping des sites web de « L'Opinion » et du « Monde » pour extraire des articles. J'ai entraîné un modèle T5 pour générer des résumés de texte automatiques, et j'ai effectué des réglages fins pour l'adapter à des sources spécifiques. J'ai intégré le modèle MarianaMT pour traduire du français vers l'anglais. Enfin, j'ai utilisé un réseau LSTM pour l'analyse du sentiment, offrant une application complète fournissant des résumés, des traductions et une évaluation du sentiment des articles extraits. Cliquez sur le lien pour voir le carnet de notes : https://colab.research.google.com/drive/1Ec1yDmKeR8EO_9Ppt9zJgEwqdkhh19vc?usp=sharing",
+            "cover_image": "project_images/tm_S6t37F3.jpg"
+        }
+    },
+    {
+        "model": "portfolio.project",
+        "pk": 4,
+        "fields": {
+            "title": "Projet d'apprentissage automatique :",
+            "description": "Ce projet d'apprentissage automatique se concentre sur la prévision du désabonnement des clients dans le secteur bancaire. En s'appuyant sur les données historiques des clients, le modèle vise à déterminer si un client est susceptible de se désabonner ou non. En utilisant des caractéristiques telles que l'historique des transactions, les données démographiques du client et l'activité du compte, le modèle utilise des algorithmes de classification avancés pour identifier des modèles indicatifs d'un désabonnement potentiel. L'objectif final est de permettre à la banque de disposer d'informations précoces, afin de mettre en place des stratégies proactives de fidélisation et de préserver des relations précieuses avec les clients. Cliquez sur le lien pour consulter le carnet de notes : https://colab.research.google.com/drive/1j5K902sGARWeXWa7DIXg1JIepIg4c9yL?usp=sharing",
+            "cover_image": "project_images/ML.jpg"
+        }
+    },
+    {
+        "model": "portfolio.project",
+        "pk": 5,
+        "fields": {
+            "title": "Projet de scraping web :",
+            "description": "MeteoMaghreb est une application météorologique rationalisée construite sur Streamlit, fournissant aux utilisateurs des mises à jour météorologiques en temps réel pour le Maroc. L'application utilise des techniques de scraping web pour récupérer des données météorologiques précises et actualisées à partir de meteomaroc.com. Les utilisateurs peuvent facilement accéder aux conditions météorologiques actuelles, aux prévisions et à d'autres informations météorologiques pertinentes pour différentes villes du Maroc. L'interface conviviale, associée à une récupération fiable des données par le biais du web scraping, garantit une expérience transparente et informative à tous ceux qui recherchent des informations météorologiques dans la région du Maghreb.",
+            "cover_image": "project_images/AM.jpg"
+        }
+    },
+    {
+        "model": "portfolio.project",
+        "pk": 6,
+        "fields": {
+            "title": "Application d'Analyse de sentiments avec APIs d'IBM",
+            "description": "Cette application vous permet d'explorer le ton émotionnel d'un texte sans effort. Développée à l'aide de Streamlit et intégrée à la puissante API NLP d'IBM, notre application fournit des résultats rapides et précis en matière d'analyse des sentiments. Il vous suffit de saisir votre texte pour obtenir des informations sur les sentiments sous-jacents, qu'ils soient positifs, négatifs ou neutres. Essayez-la dès maintenant pour mieux comprendre les émotions textuelles !",
+            "cover_image": "project_images/tm2.jpg"
+        }
+    }
+]

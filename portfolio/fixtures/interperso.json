@@ -1,0 +1,58 @@
+[
+    {
+        "model": "portfolio.interpersonalskill",
+        "pk": 1,
+        "fields": {
+            "skill": "Communication",
+            "icon": "icons/communication.png"
+        }
+    },
+    {
+        "model": "portfolio.interpersonalskill",
+        "pk": 2,
+        "fields": {
+            "skill": "Travail d'équipe",
+            "icon": "icons/te_YJXJxvl.png"
+        }
+    },
+    {
+        "model": "portfolio.interpersonalskill",
+        "pk": 3,
+        "fields": {
+            "skill": "Résolution de Problèmes",
+            "icon": "icons/ps.png"
+        }
+    },
+    {
+        "model": "portfolio.interpersonalskill",
+        "pk": 4,
+        "fields": {
+            "skill": "Gestion du temps",
+            "icon": "icons/gt.png"
+        }
+    },
+    {
+        "model": "portfolio.interpersonalskill",
+        "pk": 5,
+        "fields": {
+            "skill": "Adaptabilité",
+            "icon": "icons/adaptabilité.png"
+        }
+    },
+    {
+        "model": "portfolio.interpersonalskill",
+        "pk": 6,
+        "fields": {
+            "skill": "Leadership",
+            "icon": "icons/Leadership.png"
+        }
+    },
+    {
+        "model": "portfolio.interpersonalskill",
+        "pk": 7,
+        "fields": {
+            "skill": "Gestion du stress",
+            "icon": "icons/gs.png"
+        }
+    }
+]

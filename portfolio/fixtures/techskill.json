@@ -1,0 +1,47 @@
+[
+    {
+        "model": "portfolio.technicalskill",
+        "pk": 1,
+        "fields": {
+            "title": "Langages",
+            "description": "Python, R, JavaScript, PHP",
+            "icons": "icons/all.jpg"
+        }
+    },
+    {
+        "model": "portfolio.technicalskill",
+        "pk": 2,
+        "fields": {
+            "title": "Machine Learning & AI",
+            "description": "Scikit learn, XGBoost, LightGBM, TensorFlow, Keras, PyTorch, Hugging Face Transformers, SpaCy, NLTK, Deep Learning",
+            "icons": "icons/all2.jpg"
+        }
+    },
+    {
+        "model": "portfolio.technicalskill",
+        "pk": 3,
+        "fields": {
+            "title": "Développement Full Stack",
+            "description": "Django, Flask, React, Laravel",
+            "icons": "icons/all3.jpg"
+        }
+    },
+    {
+        "model": "portfolio.technicalskill",
+        "pk": 4,
+        "fields": {
+            "title": "APIs & Services",
+            "description": "Google Maps, Stripe, PayPal, IBM, OpenAI",
+            "icons": "icons/all4.jpg"
+        }
+    },
+    {
+        "model": "portfolio.technicalskill",
+        "pk": 5,
+        "fields": {
+            "title": "Environnements Cloud",
+            "description": "AWS, Azure, Google Cloud",
+            "icons": "icons/all5.jpg"
+        }
+    }
+]

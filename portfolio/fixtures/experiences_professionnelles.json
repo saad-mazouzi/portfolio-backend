@@ -1,0 +1,66 @@
+[
+    {
+        "model": "portfolio.professionalexperience",
+        "pk": 1,
+        "fields": {
+            "company_logo": "company_logos/unnamed_nRfDltE.png",
+            "campany_name": "SOLWAY MOROCCO Consluting & Services",
+            "job_title": "Ingénieur Full Stack",
+            "start_date": "2024-06-01",
+            "end_date": "2024-08-31",
+            "project_title": "Application de donations (Django & React)",
+            "description": "Conception et développement d'une application web de donations en utilisant Django pour le back-end et React pour le front-end, permettant la création, la gestion et le suivi des projets de donation.\r\nIntégration d'APIs tierces pour gérer les paiements en ligne de manière sécurisée (Stripe, PayPal) et pour la géolocalisation des projets, facilitant l'expérience utilisateur.\r\nAdministration et gestion de la base de données, en veillant à la structure, à la performance et à la sécurité des données.\r\nRéalisation de tests automatisés et manuels pour assurer la qualité du code, détecter les bugs et optimiser les performances de l'application.",
+            "technical_skills": "Python, Django, Django Rest Framework, React, API REST, Développement d'API, Postman, Swagger, Redoc",
+            "location": "Rabat, MAROC",
+            "project_video": "project_videos/UpscaleVideo_1_20241003.mp4"
+        }
+    },
+    {
+        "model": "portfolio.professionalexperience",
+        "pk": 2,
+        "fields": {
+            "company_logo": "company_logos/unnamed_0yCwJKg.png",
+            "campany_name": "SOLWAY MOROCCO Consluting & Services",
+            "job_title": "Data Scientist / Ingénieur en Intelligence Artificielle",
+            "start_date": "2024-02-01",
+            "end_date": "2024-06-30",
+            "project_title": "Optimisation des processus RH via une solution d'extraction automatisée des données des RIB avec IA.",
+            "description": "Conception et développement d'une solution d'intelligence artificielle pour automatiser l'extraction des données des Relevés d'Identité Bancaire (RIB) dans le cadre des processus de gestion des ressources humaines.\r\nUtilisation de techniques avancées de Computer Vision et de reconnaissance optique de caractères (OCR) pour automatiser la lecture et l'extraction précise des informations des documents.\r\nImplémentation de l'algorithme YOLO (You Only Look Once) pour la détection rapide et efficace des éléments pertinents dans les images de RIB.\r\nIntégration de modèles de traitement du langage naturel (NLP) via HuggingFace et Langchain pour améliorer la compréhension des données et automatiser leur traitement.\r\nContribution significative à l'optimisation des processus RH en réduisant les erreurs manuelles et en accélérant les délais de traitement des documents bancaires.",
+            "technical_skills": "YOLO, OCR, SpaCy, OpenCV, Python, NLP, ML, DL",
+            "location": "Rabat, MAROC",
+            "project_video": "project_videos/UpscaleVideo_4_20241002.mp4"
+        }
+    },
+    {
+        "model": "portfolio.professionalexperience",
+        "pk": 3,
+        "fields": {
+            "company_logo": "company_logos/Image1.png",
+            "campany_name": "CENTERSEND",
+            "job_title": "Data Scientist NLP/ML",
+            "start_date": "2023-07-01",
+            "end_date": "2023-09-01",
+            "project_title": "Application de Correspondance CV pour le Recrutement.",
+            "description": "Développement d'une application innovante de correspondance de CVs pour le secteur du recrutement, en exploitant les techniques de traitement du langage naturel (NLP) et d'apprentissage automatique (ML).\r\nRéalisation de web scraping pour collecter des données sur les offres d'emploi et les CVs à partir de diverses sources en ligne.\r\nEntraînement d'un algorithme K-Nearest Neighbors (KNN) pour la classification multi-classes afin d'améliorer la pertinence de la correspondance entre les CVs et les offres d'emploi.\r\nUtilisation de la méthode TF-IDF pour transformer les documents textuels en représentations numériques, facilitant ainsi l'analyse sémantique des données textuelles.\r\nDéveloppement d'une interface utilisateur interactive et intuitive avec Streamlit, permettant aux utilisateurs de visualiser les correspondances et d'interagir facilement avec l'application.",
+            "technical_skills": "NLP, ML, DL, Web Scraping",
+            "location": "Fès, MAROC",
+            "project_video": "project_videos/UpscaleVideo_3_20241002.mp4"
+        }
+    },
+    {
+        "model": "portfolio.professionalexperience",
+        "pk": 4,
+        "fields": {
+            "company_logo": "company_logos/images.png",
+            "campany_name": "YaneCode digital",
+            "job_title": "Ingénieur Fullstack",
+            "start_date": "2022-08-01",
+            "end_date": "2022-09-01",
+            "project_title": "Création d'un Magasin de Matériel Informatique.",
+            "description": "Conception et développement d'un site e-commerce complet pour la vente de matériel informatique en utilisant le framework Laravel.\r\nImplémentation d'une architecture MVC robuste pour faciliter la gestion des produits, des catégories, des utilisateurs et des commandes.\r\nDéveloppement de fonctionnalités front-end et back-end, notamment la gestion des paniers, le paiement en ligne sécurisé et la création d'un tableau de bord d'administration.",
+            "technical_skills": "Laravel, PHP, SQL, UML",
+            "location": "Kénitra, MAROC",
+            "project_video": "project_videos/UpscaleVideo_2_20241002.mp4"
+        }
+    }
+]
