@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-6lcq69au&_vpq@&mpc4*dx4zg6%u_++a+!-r%9ps5swv#(8zcu'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 CORS_ALLOW_ALL_ORIGINS = True
 
@@ -151,3 +151,14 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
+AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
+
+# Nom de votre bucket S3
+AWS_STORAGE_BUCKET_NAME = 'my-portfolio-media-bucket '
+
+# Endpoint S3 (si nécessaire)
+AWS_S3_ENDPOINT_URL = 'https://s3.amazonaws.com'
+
+# Utiliser S3 pour les fichiers médias
+DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
