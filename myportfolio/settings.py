@@ -30,7 +30,8 @@ CORS_ALLOW_ALL_ORIGINS = True
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
-    'https://portfolio-backend-1-uner.onrender.com'
+    'https://portfolio-backend-1-uner.onrender.com',
+    'https://portfolio-frontend-v1ht.onrender.com'
 ]
 
 ALLOWED_HOSTS = ['*']
