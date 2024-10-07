@@ -12,25 +12,28 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 
 from pathlib import Path
 import os
-import dj_database_url
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+
+# Quick-start development settings - unsuitable for production
+# See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
+
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-6lcq69au&_vpq@&mpc4*dx4zg6%u_++a+!-r%9ps5swv#(8zcu')
+SECRET_KEY = 'django-insecure-6lcq69au&_vpq@&mpc4*dx4zg6%u_++a+!-r%9ps5swv#(8zcu'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.environ.get('DEBUG', 'False') == 'True'
+DEBUG = True
 
 CORS_ALLOW_ALL_ORIGINS = True
 
-# Modify ALLOWED_HOSTS to include your Render domain
-ALLOWED_HOSTS = [
-    'your-app-name.onrender.com',  # Remplacez par le nom de votre application sur Render
-    '127.0.0.1',
-    'localhost'
+CORS_ALLOWED_ORIGINS = [
+    'http://localhost:3000',
 ]
+
+ALLOWED_HOSTS = ['127.0.0.1','localhost','backend-service-762052595034.us-central1.run.app']
+
 
 # Application definition
 
@@ -83,11 +86,28 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',  
+#         'NAME': 'portfolio_database',
+#         'USER': 'saad',
+#         'PASSWORD': 'zk;oL{|ggNH([prr',
+#         'HOST': '34.136.120.154', 
+#         'PORT': '3306',  
+#     }
+# }
+
 DATABASES = {
-    'default': dj_database_url.config(
-        default=os.environ.get('DATABASE_URL')
-    )
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',  
+        'NAME': 'portfoliodatabase',
+        'USER': 'admin',
+        'PASSWORD': 'Daasmaaoune123_',
+        'HOST': 'portfolio-database.cvyg2wuy2xws.eu-north-1.rds.amazonaws.com', 
+        'PORT': '3306',  
+    }
 }
+
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
@@ -107,6 +127,7 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
 
@@ -118,15 +139,14 @@ USE_I18N = True
 
 USE_TZ = True
 
+
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
 STATIC_URL = 'static/'
 
-# Configure static files storage
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
