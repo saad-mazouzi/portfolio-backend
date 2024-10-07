@@ -32,7 +32,7 @@ CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
 ]
 
-ALLOWED_HOSTS = ['127.0.0.1','localhost','backend-service-762052595034.us-central1.run.app']
+ALLOWED_HOSTS = ['127.0.0.1','localhost','backend-service-762052595034.us-central1.run.app','portfolio-backend-1-uner.onrender.com']
 
 
 # Application definition
